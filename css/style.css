@@ -10,12 +10,12 @@
 }
 
 .baggrund1 {
-        background-image:url('../img/kamera-billeder-small/naturbuket-groen-original.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        width:100%;
-        height: 100vh;
+    background-image:url('../img/kamera-billeder-small/naturbuket-groen-original.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:100%;
+    height: 100vh;
     
 }
 
@@ -38,12 +38,12 @@
 
 .baggrund2 {
     background-image:url('../img/kamera-billeder-small/groenne-blade.webp');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-attachment: fixed;
-        width:100%;
-        height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width:100%;
+    height: 100vh;
 }
 
 .box {
@@ -80,7 +80,55 @@
     color: #eddbce;
     text-align: center;
     line-height: 40px;
+    padding-top: 30px;
 }
+
+.baggrund3 {
+    background-color: #3a4f3e;
+    margin: 0;
+}
+
+.boxlayout {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trend {
+    width: 280px;
+    margin: 2.5%;
+    border: 3px solid #051709;
+    background-color: #3a4f3e;
+    color: #eddbce;
+    min-height: 100px;
+}
+
+.bladkrans {
+    width: 280px;
+    margin: 2.5%;
+    border: 3px solid #051709;
+    background-color: #3a4f3e;
+    color: #eddbce;
+    min-height: 100px;
+}
+
+.bundetkrans {
+    width: 280px;
+    margin: 2.5%;
+    border: 3px solid #051709;
+    background-color: #3a4f3e;
+    color: #eddbce;
+    min-height: 100px;
+}
+
+.plantens-rejse {
+    width: 280px;
+    margin: 2.5%;
+    border: 3px solid #051709;
+    background-color: #3a4f3e;
+    color: #eddbce;
+    min-height: 100px;
+}
+
 
 header {
     position:fixed;
