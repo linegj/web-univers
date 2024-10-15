@@ -95,40 +95,62 @@
 
 .trend {
     width: 280px;
-    margin: 2.5%;
-    border: 3px solid #051709;
-    background-color: #3a4f3e;
-    color: #eddbce;
+    margin: 2%;
+    color:#051709;
     min-height: 100px;
+    line-height: 40px;
+}
+
+.trend h2 {
+    font-size: 35px;
+    font-family: brush script MT, sans-serif;
+}
+
+.trend p {
+    font-size: 20px;
+    padding-top: 10px;
 }
 
 .bladkrans {
     width: 280px;
-    margin: 2.5%;
+    margin: 2%;
     border: 3px solid #051709;
-    background-color: #3a4f3e;
-    color: #eddbce;
+    background-color:#314132;
     min-height: 100px;
 }
 
 .bundetkrans {
     width: 280px;
-    margin: 2.5%;
+    margin: 2%;
     border: 3px solid #051709;
-    background-color: #3a4f3e;
+    background-color:#314132;
     color: #eddbce;
     min-height: 100px;
 }
 
 .plantens-rejse {
     width: 280px;
-    margin: 2.5%;
+    margin: 2%;
     border: 3px solid #051709;
-    background-color: #3a4f3e;
+    background-color:#314132;
     color: #eddbce;
     min-height: 100px;
 }
 
+.plantens-rejse img {
+    width: 280px;
+    height: 280px;
+}
+
+.bundetkrans img {
+    width: 280px;
+    height: 280px;
+}
+
+.bladkrans img {
+    width: 280px;
+    height: 280px;
+}
 
 header {
     position:fixed;
