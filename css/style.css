@@ -84,8 +84,12 @@
 }
 
 .baggrund3 {
-    background-color: #3a4f3e;
-    margin: 0;
+    background-image: url(../img/kamera-billeder-small/groenne-blade.webp);
+    width: 100%;
+   background-attachment: fixed;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center;
 }
 
 .boxlayout {
@@ -96,19 +100,23 @@
 .trend {
     width: 280px;
     margin: 2%;
-    color:#051709;
+    color:#eddbce;
     min-height: 100px;
     line-height: 40px;
+    background: rgba(0,0,0,0.5);
+    border-radius: 16px;
 }
 
 .trend h2 {
-    font-size: 35px;
+    font-size: 30px;
     font-family: brush script MT, sans-serif;
+    text-align: center;
 }
 
 .trend p {
     font-size: 20px;
     padding-top: 10px;
+    text-align: center;
 }
 
 .bladkrans {
@@ -117,7 +125,21 @@
     border: 3px solid #051709;
     background-color:#314132;
     min-height: 100px;
+    border-radius: 16px;
 }
+
+.bladkrans:hover {
+    background: rgba(0,0,0,0.5);
+}
+
+.bundetkrans:hover {
+    background: rgba(0,0,0,0.5); 
+}
+
+.plantens-rejse:hover {
+    background: rgba(0,0,0,0.5);
+}
+
 
 .bundetkrans {
     width: 280px;
@@ -126,6 +148,7 @@
     background-color:#314132;
     color: #eddbce;
     min-height: 100px;
+    border-radius: 16px;
 }
 
 .plantens-rejse {
@@ -135,6 +158,7 @@
     background-color:#314132;
     color: #eddbce;
     min-height: 100px;
+    border-radius: 16px;
 }
 
 .plantens-rejse img {
@@ -271,3 +295,81 @@ header label {
 
 }
 
+footer {
+    background-image: url(../img/kamera-billeder-small/groenne-blade.webp);
+    width: 100%;
+   background-attachment: fixed;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center;
+   padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    background-color: rgba(0,0,0,0.5);
+    padding: 5px 7%;
+}
+
+.medlem {
+    list-style: none;
+}
+
+.medlem input {
+    text-align: center;
+    margin-top: 8%;
+    border-color: #eddbce;
+    background-color:  rgba(0,0,0,0.5);
+    color: #eddbce;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+
+.medlem  button {
+    text-align: center;
+    padding: 2px;
+    background-color: #eddbce;
+    margin-top: 8%;
+    display: flex;
+}
+
+.medlem h3 {
+    color: #eddbce;
+    font-size: 25px;
+}
+
+.footer-logo img {
+    width: 350px;
+    height: 100px;
+}
+
+.kontakt h3 {
+    color: #eddbce;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.kontakt img {
+    width: 160px;
+    margin-top: 10%;
+}
+
+.kontakt p {
+    color: #eddbce;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10%;
+}
+   
