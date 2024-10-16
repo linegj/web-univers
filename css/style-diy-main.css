@@ -38,7 +38,7 @@ header .navbar ul li a {
 }
 
 header .navbar ul li a:hover {
-    background: #051709;
+    background: #40392b;
     color: #eddbce ;
 
 }
@@ -47,7 +47,7 @@ header .navbar ul li ul {
     position: absolute;
     left: 0;
     width: 200px;
-    background: #3a4f3e;
+    background: #252119;
     display: none;
 }
 
@@ -125,3 +125,120 @@ header label {
     width: 80px;
     height: 80px;
 }
+
+.baggrund1 {
+    background-image:url('../img/kamera-billeder-small/blade-paa-jorden-2.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:100%;
+    height: 100vh;
+}
+
+.content1 {
+    padding-top: 230px;
+    width: 90%;
+    padding-left: 5%;
+    Padding-right: 5%;
+    text-align: center;
+}
+
+.textbox {
+    width: 90%;
+    margin-left: 10%;
+    background-color:rgba(0,0,0,0.5);
+}
+
+.content1 h2 {
+    font-size: 60px;
+    color: #eddbce;
+    font-family: brush script MT, sans-serif;
+}
+
+.content1 p {
+    font-size: 20px;
+    color: #eddbce;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 30px;
+    line-height: 40px;
+}
+
+.diy-bladkrans {
+    background-image:url('../img/kamera-billeder-small/diy-bladkrans.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:100%;
+    height: 100vh;
+}
+
+.bladkrans-content {
+    margin-left: 800px;
+    padding-top: 50px;
+}
+
+.bladkrans-content h2 {
+    font-size: 80px;
+    color: #eddbce;
+    font-family: brush script MT, sans-serif;
+}
+
+.bladkrans-content h3 {
+    font-size: 35px;
+    color: #eddbce;
+    padding-left: 10px;
+}
+
+.diy-bladkrans-button {
+    background-color: #eddbce;
+    color: #252119;
+    padding: 20px;
+    margin-top: 200px;
+    font-size: 20px;
+    border-radius: 16px;
+}
+
+.diy-bundetkrans {
+    background-image:url('../img/kamera-billeder-small/diy-krans.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:100%;
+    height: 100vh;
+}
+
+.bundetkrans-content {
+    margin-left: 40px;
+    padding-top: 60px;
+}
+
+.bundetkrans-content h2 {
+    font-size: 80px;
+    color: #252119;
+    font-family: brush script MT, sans-serif;
+}
+
+.bundetkrans-content h3 {
+    font-size: 35px;
+    color: #252119;
+    padding-left: 10px;
+}
+
+.diy-bundetkrans-button {
+    background-color: #252119;
+    color:#eddbce;
+    padding: 20px;
+    margin-top: 250px;
+    font-size: 20px;
+    border-radius: 16px;
+}
+
+
+
+
+
+
+
+
+
