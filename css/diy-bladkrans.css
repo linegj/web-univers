@@ -132,6 +132,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
     width:100%;
     height: 100vh;
 }
@@ -193,7 +194,15 @@ body{
     margin: .4rem .3rem;
 }
 
-
+footer {
+    background-image: url(../img/kamera-billeder-small/blade.webp);
+    width: 100%;
+   background-attachment: fixed;
+   background-size: cover;
+   background-position: center;
+    display: flex;
+    justify-content: space-between;
+}
 
 .boks {
     bottom: 0;
@@ -261,4 +270,22 @@ body{
     margin-top: 10%;
 }
 
+.tips-og-tricks {
+    text-align: center;
+}
+
+.tips-og-tricks h3{
+    color: #eddbce;
+    font-size: 30px;
+}
+
+.tips-og-tricks button {
+    background-color: #eddbce;
+    padding: 10px;
+    margin-bottom: 50px;
+    color: #252119;
+    border-radius: 16px;
+    margin-top: 10px;
+    font-size: 15px;
+}
 

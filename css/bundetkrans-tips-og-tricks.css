@@ -1,11 +1,64 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-#logo {
-    width: 80px;
-    height: 80px;
+
+.tips-og-tricks {
+    display: flex;
+}
+
+.box1 {
+    width: 280px;
+    margin: 2%;
+    color:#eddbce;
+    min-height: 100px;
+    line-height: 40px;
+    background: rgba(0,0,0,0.6);
+    border-radius: 16px; 
+    margin-top: 200px;
+}
+
+.box2 {
+    width: 280px;
+    margin: 2%;
+    color:#eddbce;
+    min-height: 100px;
+    line-height: 40px;
+    background: rgba(0,0,0,0.6);
+    border-radius: 16px; 
+    margin-top: 200px;
+}
+
+.box3 {
+    width: 280px;
+    margin: 2%;
+    color:#eddbce;
+    min-height: 100px;
+    line-height: 40px;
+    background: rgba(0,0,0,0.6);
+    border-radius: 16px; 
+    margin-top: 200px;
+}
+
+.box4 {
+    width: 280px;
+    margin: 2%;
+    color:#eddbce;
+    min-height: 100px;
+    line-height: 40px;
+    background: rgba(0,0,0,0.6);
+    border-radius: 16px; 
+    margin-top: 200px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+p {
+    text-align: center;
 }
 
 header {
@@ -42,7 +95,7 @@ header .navbar ul li a {
 }
 
 header .navbar ul li a:hover {
-    background: #40392b;
+    background: #051709;
     color: #eddbce ;
 
 }
@@ -51,7 +104,7 @@ header .navbar ul li ul {
     position: absolute;
     left: 0;
     width: 200px;
-    background: #252119;
+    background: #3a4f3e;
     display: none;
 }
 
@@ -126,94 +179,22 @@ header label {
 
 }
 
-body{
-    background-image: url(../img/kamera-billeder-small/lyng-blade.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    width:100%;
-    height: 100vh;
-}
-
-.container {
-    position: relative;
-}
-
-.container .wrapper {
-    width: 65vw;
-    height: 70vh;
-    border: 1px solid #000;
-    margin: 5rem auto;
-    overflow: hidden;
-    border-radius: 16px;
-    margin-top: 150px;
-    margin-bottom: 60px;
-
-}
-
-.container .slider-holder{
-    display: grid;
-    grid-template-columns: repeat(6,100%);
-    height: 100%;
-}
-
-.container #slider-image1 {
-    background-image: url(../img/kamera-billeder-small/bundetkrans-slide1.jpg);
-    background-size: cover;
-}
-
-.container #slider-image2 {
-    background-image: url(../img/kamera-billeder-small/bundetkrans-slide2.jpg);
-    background-size: cover;
-}
-
-.container #slider-image3 {
-    background-image: url(../img/kamera-billeder-small/bundetkrans-slide3.jpg);
-    background-size: cover;
-}
-
-.container #slider-image4 {
-    background-image: url(../img/kamera-billeder-small/bundetkrans-slide4.jpg);
-    background-size: cover;
-}
-
-.container #slider-image5 {
-    background-image: url(../img/kamera-billeder-small/bundetkrans-slide5.jpg);
-    background-size: cover;
-}
-
-.container #slider-image6 {
-    background-image: url(../img/kamera-billeder-small/bundetkrans-slide6.jpg);
-    background-size: cover;
-}
-
-.container .button-holder{
-    position: absolute;
-    bottom: 0%;
-    left: 45%;
-}
-
-.container .button-holder .dots {
-    display: inline-block;
-    height: 15px;
-    width: 15px;
-    border-radius: 3rem;
-    background-color: #252119;
-    margin: .4rem .3rem;
+#logo {
+    width: 80px;
+    height: 80px;
 }
 
 footer {
-    background-image: url(../img/kamera-billeder-small/lyng-blade.webp);
     width: 100%;
-   background-size: cover;
    background-attachment: fixed;
+   background-size: cover;
    background-position: center;
+   padding-top: 80px;
     display: flex;
     justify-content: space-between;
 }
 
-.boks {
+.container {
     bottom: 0;
     left: 0;
     right: 0;
@@ -279,24 +260,10 @@ footer {
     margin-top: 10%;
 }
 
-.tips-og-tricks {
-    text-align: center;
+body{
+    background-image: url(../img/kamera-billeder-small/lyng-blade.webp);
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 }
-
-.tips-og-tricks h3{
-    color: #eddbce;
-    font-size: 30px;
-}
-
-.tips-og-tricks button {
-    background-color: #eddbce;
-    padding: 10px;
-    margin-bottom: 50px;
-    color: #252119;
-    border-radius: 16px;
-    margin-top: 10px;
-    font-size: 15px;
-}
-
-
-

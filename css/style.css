@@ -64,7 +64,7 @@
   padding:60px;
   width: 80%;
   margin: 10%;
-  margin-top: 5%;
+  margin-top: 8%;
 }
 .tekstbox1 h2 {
     font-size: 50px;
@@ -301,7 +301,6 @@ footer {
     width: 100%;
    background-attachment: fixed;
    background-size: cover;
-   background-attachment: fixed;
    background-position: center;
    padding-top: 80px;
     display: flex;
