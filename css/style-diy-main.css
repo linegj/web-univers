@@ -234,6 +234,82 @@ header label {
     border-radius: 16px;
 }
 
+footer {
+    background-image: url(../img/kamera-billeder-small/blade-paa-jorden-2.webp);
+    width: 100%;
+   background-attachment: fixed;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    background-color: rgba(0,0,0,0.5);
+    padding: 5px 7%;
+}
+
+.medlem {
+    list-style: none;
+}
+
+.medlem input {
+    text-align: center;
+    margin-top: 8%;
+    border-color: #eddbce;
+    background-color:  rgba(0,0,0,0.5);
+    color: #eddbce;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+
+.medlem  button {
+    text-align: center;
+    padding: 2px;
+    background-color: #eddbce;
+    margin-top: 8%;
+    display: flex;
+}
+
+.medlem h3 {
+    color: #eddbce;
+    font-size: 25px;
+}
+
+.footer-logo img {
+    width: 350px;
+    height: 100px;
+}
+
+.kontakt h3 {
+    color: #eddbce;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.kontakt img {
+    width: 160px;
+    margin-top: 10%;
+}
+
+.kontakt p {
+    color: #eddbce;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10%;
+}
 
 
 
