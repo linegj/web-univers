@@ -1,137 +1,61 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-header {
-    position:fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
-    padding: 5px 7%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 1000;
-    background-color: rgba(0,0,0,0.5);
-}
-
-header .navbar ul {
-    list-style: none;
-    margin-top: 30px;
-}
-
-header .navbar ul li {
-    position: relative;
-    float: left;
-    margin: 10px 40px;
-}
-
-header .navbar ul li a {
-   text-decoration: none;
-   font-size: 20px;
-   padding: 18px;
-   color: #eddbce ;
-   display: block;
-}
-
-header .navbar ul li a:hover {
-    background: #40392b;
-    color: #eddbce ;
-
-}
-
-header .navbar ul li ul {
-    position: absolute;
-    left: 0;
-    width: 200px;
-    background: #252119;
-    display: none;
-}
-
-header .navbar ul li ul li {
-    width: 100%;
-    border-top: 1px solid rgba(0,0,0,0.1) ;
-}
-
-header .navbar ul li ul li ul {
-    left: 200px;
-    top: 0;
-}
-
-header .navbar ul li:focus-within > ul,
-header .navbar ul li:hover > ul {
-    display: block;
-}
-
-#menu-bar {
-    display: none;
-}
-
-header label {
-    font-size: 20%;
-    color: #eddbce ;
-    cursor: pointer;
-    display: none;
-}
-
-@media(max-width:991px) {
-
-
-    header {
-        padding: 20px;
-    }
-
-    header label {
-        display: block;
-    }
-
-    header .navbar {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        background: #fff;
-        border-top: 1px solid rgba(0,0,0,0.1);
-        display: none;
-    }
-
-    header .navbar ul li {
-        width: 100%;
-    }
-
-    header .navbar ul li ul {
-        position: relative;
-        width: 100%;
-    }
-
-    header .navbar ul li ul li {
-        background: #eee;
-    }
-
-    header .navbar ul li ul li ul {
-        width: 100%;
-        left: 0;
-    }
-
-    #menu-bar:checked ~ .navbar {
-        display: block;
-    }
-}
-
-#logo {
-    width: 80px;
-    height: 80px;
-}
 
 body {
-    background-image:url('../img/kamera-billeder-small/blade.webp');
+    background-color: #eddbce;
+}
+
+.container {
+    position: relative;
+}
+
+.container .wrapper {
+    width: 70vw;
+    height: 75vh;
+    border: 1px solid #000;
+    margin: 5rem auto;
+    overflow: hidden;
+    border-radius: 16px;
+
+}
+
+.container .slider-holder{
+    display: grid;
+    grid-template-columns: repeat(4,100%);
+    height: 100%;
+}
+
+.container #slider-image1 {
+    background-image: url(../img/kamera-billeder-small/bladkrans-slide1.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width:100%;
-    height: 100vh;
+}
+
+.container #slider-image2 {
+    background-image: url(../img/kamera-billeder-small/bladkrans-slide2.jpg);
+    background-size: cover;
+}
+
+.container #slider-image3 {
+    background-image: url(../img/kamera-billeder-small/bladkrans-slide3.jpg);
+    background-size: cover;
+}
+
+.container #slider-image4 {
+    background-image: url(../img/kamera-billeder-small/bladkrans-slide4.jpg);
+    background-size: cover;
+}
+
+.container .button-holder{
+    position: absolute;
+    bottom: 0%;
+    left: 45%;
+}
+
+.container .button-holder .dots {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 3rem;
+    background-color: antiquewhite;
+    margin: .4rem .3rem;
 }
 
