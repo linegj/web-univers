@@ -320,13 +320,13 @@ footer {
    border-radius: 16px;
 }
 
-.bladkrans-button {
-    padding: 20px;
-    background-color: #eddbce;
+.bladkrans-button { /* Her styler jeg anchortagget som en knap*/
+    padding: 20px; /* indre space/størrelse */
+    background-color: #eddbce; 
     color: #252119;
-    border-radius: 16px;
-    
+    border-radius: 16px;  /* giver den runde kanter */
 }
+
 
 
 

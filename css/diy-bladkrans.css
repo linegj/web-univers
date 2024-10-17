@@ -141,21 +141,21 @@ body{
     position: relative;
 }
 
-.container .wrapper {
-    width: 65vw;
-    height: 70vh;
-    border: 1px solid #000;
+.container .wrapper { /* Jeg styler mit slideshow */
+    width: 65vw; /* 65% bredde på viewport */
+    height: 70vh; /* 70% bredde på viewport */
+    border: 1px solid #000; 
     margin: 5rem auto;
-    overflow: hidden;
-    border-radius: 16px;
+    overflow: hidden; /* skjuler indhold udenfor element */
+    border-radius: 16px; /* runde kanter*/
     margin-top: 150px;
     margin-bottom: 60px;
 
 }
 
 .container .slider-holder{
-    display: grid;
-    grid-template-columns: repeat(4,100%);
+    display: grid; /* 2 dimensionelt layout styres præcist*/
+    grid-template-columns: repeat(4,100%); /* definerer grid layout med 4 kolonner. alle har bredde på 100%*/
     height: 100%;
 }
 

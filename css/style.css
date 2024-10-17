@@ -25,7 +25,7 @@
 
 .content1 h1 {
     font-size: 80px;
-    font-family: brush script MT, sans-serif;
+    font-family: brush script MT, sans-serif; 
     color: #051709;
     font-style: italic;
 }
@@ -109,6 +109,7 @@
 .trend h2 {
     font-size: 30px;
     font-family: brush script MT, sans-serif;
+    font-style: italic;
     text-align: center;
 }
 
@@ -178,19 +179,19 @@
     height: 280px;
 }
 
-header {
-    position:fixed;
-    top: 0;
+header { /* Her styler jeg indholdet i headeren. Det består af navigatinsbaren. */
+    position:fixed; /*headeren følger med ned når man scroller*/
+    top: 0;/*udfylder hele toppet (ingen space i top, højre og venstre*/
     left: 0;
     right: 0;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 5px 7%;
-    z-index: 1000;
-    background-color: rgba(0,0,0,0.5);
-}
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1); /*headeren har en skygge*/
+    display: flex; /*anchortagsene placeres ved siden af hinanden*/
+    align-items: center; /*placeres i midten*/
+    justify-content: space-between; /*luft omkring*/
+    padding: 5px 7%;/*indre luft 5px er top og bund og 7% er højre og venstre*/
+    z-index: 1000;/*lodret akse. elementet skal have en høj prioritet */
+    background-color: rgba(0,0,0,0.5); /*halv gennemsigtig baggrundsfarve */
+} 
 
 header .navbar ul {
     list-style: none;
@@ -203,7 +204,7 @@ header .navbar ul li {
     margin: 5px 5px;
 }
 
-header .navbar ul li a {
+header .navbar ul li a { /*her styler jeg hyperlinks i liste */
    text-decoration: none;
    font-size: 20px;
    padding: 18px;
@@ -211,7 +212,7 @@ header .navbar ul li a {
    display: block;
 }
 
-header .navbar ul li a:hover {
+header .navbar ul li a:hover {  /*baggrunden ændrer farve, når man holder musen over et hyperlink */
     background: #051709;
     color: #eddbce ;
 }
@@ -235,7 +236,7 @@ header .navbar ul li ul li ul {
 }
 
 header .navbar ul li:focus-within > ul,
-header .navbar ul li:hover > ul {
+header .navbar ul li:hover > ul { /*når man hover over en listepost, vil det påvirke de underordnede lister, der ligger inde i selve listeposten */
     display: block;
 }
 
