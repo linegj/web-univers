@@ -15,10 +15,10 @@ header {
     left: 0;
     right: 0;
     box-shadow: 0 5px 10px rgba(0,0,0,0.1);
-    padding: 5px 7%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 5px 7%;
     z-index: 1000;
     background-color: rgba(0,0,0,0.5);
 }
@@ -31,7 +31,7 @@ header .navbar ul {
 header .navbar ul li {
     position: relative;
     float: left;
-    margin: 10px 40px;
+    margin: 5px 5px;
 }
 
 header .navbar ul li a {

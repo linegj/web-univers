@@ -307,7 +307,8 @@ h1 {
     color: #051709;
     padding: 10px;
     border-radius: 16px;
-    margin-top: 50px;
+    margin-top: 40px;
+    font-size: 20px;
 }
 footer {
     background-image: url(../img/kamera-billeder-small/blomster-close-up.webp);
