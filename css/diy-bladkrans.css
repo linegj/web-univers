@@ -202,6 +202,7 @@ footer {
    background-position: center;
     display: flex;
     justify-content: space-between;
+    margin-top: 50px;
 }
 
 .boks {
@@ -277,15 +278,15 @@ footer {
 .tips-og-tricks h3{
     color: #eddbce;
     font-size: 30px;
+    margin-bottom: 50px;
 }
 
-.tips-og-tricks button {
+.t-og-t-button {
+    padding: 20px;
     background-color: #eddbce;
-    padding: 10px;
-    margin-bottom: 50px;
     color: #252119;
     border-radius: 16px;
-    margin-top: 10px;
-    font-size: 15px;
+    font-size: 20px;
 }
+
 

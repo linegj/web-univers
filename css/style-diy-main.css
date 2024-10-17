@@ -189,6 +189,7 @@ header label {
     font-size: 35px;
     color: #eddbce;
     padding-left: 10px;
+    margin-bottom: 250px;
 }
 
 .diy-bladkrans-button {
@@ -224,6 +225,7 @@ header label {
     font-size: 35px;
     color: #252119;
     padding-left: 10px;
+    margin-bottom: 300px;
 }
 
 .diy-bundetkrans-button {
@@ -311,7 +313,20 @@ footer {
     margin-top: 10%;
 }
 
+.bundetkrans-button {
+   padding: 20px;
+   background-color: #252119;
+   color: #eddbce;
+   border-radius: 16px;
+}
 
+.bladkrans-button {
+    padding: 20px;
+    background-color: #eddbce;
+    color: #252119;
+    border-radius: 16px;
+    
+}
 
 
 
